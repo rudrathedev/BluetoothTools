@@ -16,7 +16,6 @@ import android.bluetooth.BluetoothAdapter;
         iconName = "")
 
 @SimpleObject(external = true)
-"android.permission.BLUETOOTH, android.permission.BLUETOOTH_ADMIN"
 @UsesPermissions(permissionNames = "android.permission.BLUETOOTH, android.permission.BLUETOOTH_ADMIN")
 
 public class BluetoothTools extends AndroidNonvisibleComponent {
